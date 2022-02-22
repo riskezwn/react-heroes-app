@@ -2,7 +2,7 @@ import React from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 
-export const PrivateRoute = ({ children, isAuthenticated }) => {
+export const PrivateRoute = ({ children, isAuthenticated, ...props }) => {
     const { pathname } = useLocation();
     localStorage.setItem("lastPath", pathname);
     
