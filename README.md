@@ -1,6 +1,6 @@
 # HeroesApp
 
-[DEMO](https://riskezwn.github.io/react-heroesapp/)
+[DEMO](https://riskezwn-heroesapp.netlify.app/)
 
 ## Description
 
